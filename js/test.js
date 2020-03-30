@@ -57,7 +57,6 @@
 
 // }
 
-
 // switch (appData.moneyPerDay) {
 //   case appData.moneyPerDay < 100:
 //     console.log("Minimal budget for life");
@@ -71,3 +70,19 @@
 //     break;
 // }
 
+// let stats = {
+//   Wilson: 21,
+//   Jack: 22,
+//   Frank: 25
+// };
+
+// for (let key in stats) {
+//   console.log(`Statistics is ${key1} - ${stats[key1]}`);
+// }
+
+// let array1 = ["Fish", 21312, { color: "red" }];
+
+// console.log(array1[2][0]);
+
+
+// 'masiv is :' + array + ')'

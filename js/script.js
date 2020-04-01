@@ -1,3 +1,26 @@
+let startBtn = document.getElementById("start")[0],
+  budgetValue = document.getElementsByClassName("budget-value")[0],
+  levelValue = document.getElementsByClassName("level-value")[0],
+  expensesValue = document.getElementsByClassName("expenses-value")[0],
+  optionalExpensesValue = document.getElementsByClassName(
+    "optionalexpenses-value"
+  )[0],
+  incomeValue = document.getElementsByClassName("income-value")[0],
+  monthSavingValue = document.getElementsByClassName("monthsavings-value")[0],
+  yearSavingsValue = document.getElementsByClassName("yearsavings-value")[0],
+  expensesItem = document.getElementsByClassName("expenses-item"),
+  optionalExpensesBtn1 = document.getElementsByTagName("button")[0],
+  optionalExpensesBtn2 = document.getElementsByTagName("button")[1],
+  countBudgetBtn = document.getElementsByTagName("button")[2],
+  optionalExpensesItem = document.querySelectorAll(".optionalexpenses-item"),
+  chooseIncome = document.querySelector(".choose-income"),
+  savingsCheckbox = document.querySelector("#savings"),
+  chooseSum = document.querySelector(".choose-sum"),
+  choosePercent = document.querySelector(".choose-percent"),
+  yearValue = document.querySelector(".year-value"),
+  monthValue = document.querySelector(".month-value"),
+  dayValue = document.querySelector(".day-value");
+
 let money, time;
 
 function start() {
@@ -9,7 +32,7 @@ function start() {
   }
 }
 
-start();
+// start();
 
 let appData = {
   budget: money,
@@ -86,47 +109,8 @@ let appData = {
   }
 };
 
-appData.chooseIncome();
+// appData.chooseIncome();
 
-for (key in appData) {
+for (let key in appData) {
   console.log(`Our program includes this data: ${key}`);
 }
-// let i = 0;
-// while (i < 2) {
-//   let a = prompt("Necessary position for buying", ""),
-//     b = +prompt("How much does it cost?", "");
-//   i++;
-//   if (
-//     typeof a === "string" &&
-//     typeof a != null &&
-//     typeof b != null &&
-//     a != "" &&
-//     b != "" &&
-//     a.length < 50
-//   ) {
-//     console.log("done");
-//     appData.expenses[a] = b;
-//   } else {
-//     i--;
-//   }
-// }
-
-// let i = 0;
-// do {
-//   let a = prompt("Necessary position for buying", ""),
-//     b = +prompt("How much does it cost?", "");
-//   i++;
-//   if (
-//     typeof a === "string" &&
-//     typeof a != null &&
-//     typeof b != null &&
-//     a != "" &&
-//     b != "" &&
-//     a.length < 50
-//   ) {
-//     console.log("done");
-//     appData.expenses[a] = b;
-//   } else {
-//     i--;
-//   }
-// } while (i < 2);

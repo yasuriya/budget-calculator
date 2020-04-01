@@ -84,5 +84,26 @@
 
 // console.log(array1[2][0]);
 
-
 // 'masiv is :' + array + ')'
+
+let x = 5;
+console.log(x++);
+
+console.log(typeof ([] + false - null + true));
+
+console.log([] + false - null + true);
+
+let y = 1;
+let x = (y = 2);
+console.log(x);
+
+console.log([1] + 1 + 2);
+console.log(typeof ([1] + 1 + 2));
+
+console.log("1123"[2]);
+
+let a, b;
+a = [1, 2, 3];
+b = [1, 2, 3];
+
+console.log(a === b);

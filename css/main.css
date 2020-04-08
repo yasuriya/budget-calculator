@@ -219,8 +219,8 @@ a:active {
 .result .time-data .day,
 .result .time-data .month,
 .result .time-data .year {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 700;
 }
 .result .time-data .day-value,
 .result .time-data .month-value,
@@ -234,8 +234,8 @@ a:active {
     padding-left: 10px;
     margin-bottom: 10px;
     font-size: 14px;
-    color: #a7a7a7;
+    color: #ff6a30;
     width: 80px;
     height: 30px;
-    margin-left: 25px;
+    margin: 0px, 15px, 0px, 25px;
 }

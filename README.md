@@ -1,3 +1,3 @@
 # 
 
-# ![Link](https://yasuriya.github.io/budget_calculator/)
+# [Link](https://yasuriya.github.io/budget_calculator/)
